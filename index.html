@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Homepage" content="width=device-width,initial-scale=1.0">
+
+
+        <title>Vallejo Public Library</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img id="logoLibrary" src="./images/logo.jpg" alt="Logo of Library">
+                <p>Image source: <a href="https://www.istockphoto.com/vector/abstract-letter-v-logo-illustration-in-trendy-and-minimal-style-gm1438055349-478664695">Usplash</a></p>
+            </div>
+            <div class="nameLibrary">
+                <h1>Vallejo Public Library </h1>
+            </div>            
+        </header>
+        
+        <nav class="navbar">
+                <a class="nav-link" href="./index.html">
+                    <div class="navElement">Home</div>
+                </a>
+                <a class="nav-link" href="./book.html">
+                    <div class="navElement">Book Catalog</div>
+                </a>
+                <a class="nav-link" href="./register.html">
+                    <div class="navElement">Library Card</div>
+                </a>
+                <a class="nav-link" href="#contact-section">
+                    <div class="navElement">Inquiries</div>
+                </a>
+        </nav>
+
+        <div class="search-container">
+            <form action="search.html" method="GET" class="search-form">
+              <input type="text" placeholder="Search this site..." name="query" class="search-input">
+              <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+
+        <div class="news-carousel">
+            <!-- leftsidebar: News Title -->
+            <div class="news-titles">
+              <ul>
+                <li class="news-item" data-index="0">News Title 1</li>
+                <li class="news-item" data-index="1">News Title 2</li>
+                <li class="news-item" data-index="2">News Title 3</li>
+              </ul>
+            </div>
+            <!-- rightsidebar: News pic -->
+            <div class="news-slideshow">
+              <img src="images/image1" alt="News Image 1" class="slideshow-image active">
+              <p>Image source: <a href="https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-NIJuEQw0RKg">Usplash</a></p>
+              <img src="images/image2" alt="News Image 2" class="slideshow-image">
+              <img src="images/image3" alt="News Image 3" class="slideshow-image">
+            </div>
+        </div>
+    
+        
+    </body>
+
+    <footer id="contact-section">
+        <div class="footer-left">
+            
+            <h2>Contact Us</h2>
+            <p><address>No.199 Fifth Avenue, Vallejo</address></p>
+            <p>Opening Hours: 9:00 a.m. - 5:00 p.m., Tuesday - Sunday </p>
+            <p>Contact: VallejoLibrary@gmail.com</p>
+            
+        </div>
+        <div class="footer-right">
+            <br>
+            <p class="copyright">Copyright © 2024 Leiying Hu, All Rights Reserved.</p>
+        </div>
+    </footer>
+</html>
