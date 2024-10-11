@@ -338,6 +338,28 @@ input[type="password"] {
 
 
 footer {
-    text-align: center;
-    margin: 20px;
+  /* display: flex; */
+  text-align: center;
+  margin: 20px;
 }
+
+.footer-left {
+  width: 100%;
+  background-color: #ffce91;
+  margin: 15px 15px 15px 15px;
+  padding: 15px;
+}
+
+/* .footer-right {
+  width: 30%;
+} */
+
+.copyright {
+  color: #a9a9a9 !important;
+}
+
+/* @media screen and(max-width:640px) {
+  #contact-section {
+    display: block;
+  }
+} */
